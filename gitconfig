@@ -1,0 +1,20 @@
+[user]
+	email = username@statoil.com
+	name = My Full Name
+
+[color]
+	ui = true
+
+[alias]
+    st = status -sb
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    standup = "!git log --since yesterday --author `git config user.email` --pretty=short"
+    last = log -l HEAD
+    lgg = log --oneline --decorate
+    difff = diff --word-diff
+    ds = diff --staged
+    cm = commit -m
+    ap = add -p
+
+[push]
+	default = simple
