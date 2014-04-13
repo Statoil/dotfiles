@@ -4,6 +4,17 @@ dotfiles
 A repository for hosting configuration files for vim, emacs, git, zsh, tmux, ..
 
 
+### Dotfiles of interest?
+```
+* .cshrc
+* .bashrc
+* .wgetrc
+* .screenrc
+* .irssi/config ?
+* .vimrc
+* .vim*
+```
+
 
 ### NOTE: ###
 
